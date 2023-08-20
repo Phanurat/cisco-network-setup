@@ -1,0 +1,17 @@
+Router 0
+Router0#conf t
+Router0(config)# Router RIP
+Router0(config-router)#version 2
+Router0(config-router)#no auto-summary
+Router0(config-router)#network 20.0.0.0
+Router0(config-router)#network 193.200.10.0
+Router0(config-router)# network 193.200.20.0
+
+Router 1
+Router1#conf t
+Router1(config)# Router RIP
+Router1(config-router)#version 2
+Router1(config-router)#no auto-summary
+Router1(config-router)#network 20.0.0.0
+Router1(config-router)#network 193.200.30.0
+Router1(config-router)# network 193.200.40.0
