@@ -15,3 +15,32 @@ Router1(config-router)#no auto-summary
 Router1(config-router)#network 20.0.0.0
 Router1(config-router)#network 193.200.30.0
 Router1(config-router)# network 193.200.40.0
+
+
+
+# set password Route
+
+hostname --name--
+enable secret --password--
+
+# set password to Privileged mode exit
+
+	#line console to pc connect by port
+
+#go to console
+line console 0
+
+password --your password--
+
+login
+
+#exit Line vty for conntect telent or PC
+
+line vty 0 4
+
+password --your password--
+login
+
+#So go to command promt
+telnet --ip port--
+password --your password--
